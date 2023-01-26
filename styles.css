@@ -1,0 +1,133 @@
+body {margin:0;}
+main{
+    
+    width: 75%;
+    margin: 0px auto;
+    background-color: rgb(201, 223, 207);
+    padding-bottom: 20px;
+}
+#header-img{
+    width: 35px;
+}
+#nav-bar{
+    overflow: hidden;
+    background-color:rgb(116, 187, 151);
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+#cabeca{
+    margin-top: 70px;
+    font-family: 'ABeeZee';
+    font-size: 60px;
+    color:rgb(116, 187, 151);
+    text-align: center;
+}
+h2{
+    padding-top: 10px;
+    font-family: 'ABeeZee';
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+#textinho{
+    padding-top: 5px;
+    font-family: 'ABeeZee';
+    font-size: 20px;
+    color:  #fdfdfd;
+    text-align: center;
+}
+.nav-link{
+    float: left;
+    color: #fdfdfd;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.videos{
+    width: 100%;
+    height: 400px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.formulario{
+    border-radius: 5px;
+    background-color: #fdfdfd;
+    padding: 20px;
+    width: 90%;
+    margin: 0px auto;
+
+}
+#email{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#submit{
+    width: 100%;
+    background-color:rgb(116, 187, 151);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width:100%;
+}
+
+.card {
+    background-color: #fdfdfd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width:250px ;
+    height:450px;
+    text-align: center;
+    font-family: arial;
+    float: left;
+    margin:  auto;
+    margin: 7px;  
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+.imagem{
+    border-radius:50%;
+    width:200px;
+    height:200px;
+    margin-top:10px;
+}
+footer{
+    margin-top: 20px;
+    font-family: 'ABeeZee';
+    font-size: 25px;
+    color:rgb(116, 187, 151);
+    text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+    main, .card {
+        width:95% ;
+        }
+}
